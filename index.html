@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="خدمات برق ساختمانی موسوی در مشهد؛ برق‌کاری ساختمان، نصب چراغ و لوستر، نورپردازی داخلی و نما و خدمات اضطراری برق.">
+  <title>خدمات برق ساختمانی موسوی | مشهد</title>
+  <style>
+    :root{--yellow:#ffc928;--dark:#111827;--ink:#1f2937;--muted:#667085;--light:#f7f8fa;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.9}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(17,24,39,.97);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #0002}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem}
+    .brand-icon{display:grid;place-items:center;background:var(--yellow);color:#111;width:42px;height:42px;border-radius:12px;font-size:1.5rem}
+    nav{display:flex;gap:22px;align-items:center;font-size:.92rem;color:#e5e7eb}
+    nav a:hover{color:var(--yellow)}
+    .nav-call{background:var(--yellow);color:#111;padding:9px 16px;border-radius:9px;font-weight:bold}
+    .hero{background:linear-gradient(115deg,rgba(17,24,39,.97),rgba(17,24,39,.82)),radial-gradient(circle at 15% 20%,#f9b900 0,transparent 28%);color:white;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:35px;padding:76px 0 80px}
+    .eyebrow{display:inline-block;color:var(--yellow);font-weight:bold;border:1px solid #ffc92866;background:#ffc92812;border-radius:999px;padding:5px 13px;font-size:.9rem}
+    h1{font-size:clamp(2rem,4vw,3.6rem);line-height:1.45;margin:18px 0}
+    h1 span{color:var(--yellow)}
+    .hero p{font-size:1.08rem;color:#e5e7eb;max-width:620px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:bold;transition:.2s}
+    .btn-primary{background:var(--yellow);color:#111}
+    .btn-primary:hover{background:#ffdc68;transform:translateY(-2px)}
+    .btn-outline{border:1px solid #ffffff70;color:white}
+    .hero-art{min-height:310px;display:grid;place-items:center;position:relative}
+    .bulb{width:230px;height:230px;border-radius:50%;display:grid;place-items:center;font-size:7rem;background:radial-gradient(circle,#ffe88a 0,#ffc928 34%,#ffc92820 68%,transparent 70%);filter:drop-shadow(0 0 30px #ffc92855)}
+    .art-card{position:absolute;background:#ffffff12;border:1px solid #ffffff2b;backdrop-filter:blur(10px);padding:12px 16px;border-radius:13px;font-size:.92rem}
+    .art-card.one{top:18px;right:0}.art-card.two{bottom:25px;left:0}
+    .trust{background:#fff;box-shadow:0 8px 30px #1018280b;position:relative;margin-top:-24px;border-radius:16px;padding:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .trust-item{display:flex;align-items:center;gap:12px;justify-content:center}
+    .trust-icon{font-size:1.6rem;background:#fff5cc;border-radius:12px;padding:8px}
+    .trust strong{display:block;color:var(--dark)}.trust small{color:var(--muted)}
+    section{padding:76px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+    .section-head .tag{color:#9a7000;font-weight:bold}
+    h2{font-size:clamp(1.7rem,3vw,2.4rem);color:var(--dark);margin:7px 0 12px;line-height:1.5}
+    .section-head p{color:var(--muted);margin:0}
+    .services{background:var(--light)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;border:1px solid #eaecf0;border-radius:16px;padding:25px;transition:.25s}
+    .card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #10182812;border-color:#f3d56c}
+    .card-icon{width:58px;height:58px;border-radius:15px;background:#fff3bf;display:grid;place-items:center;font-size:1.8rem;margin-bottom:14px}
+    .card h3{margin:0 0 8px;color:var(--dark);font-size:1.12rem}
+    .card p{margin:0;color:var(--muted);font-size:.94rem}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+    .about-panel{background:var(--dark);border-radius:20px;padding:30px;color:#fff;position:relative;overflow:hidden}
+    .about-panel:after{content:"⚡";position:absolute;font-size:11rem;left:-10px;bottom:-70px;color:#ffffff0b}
+    .about-panel h3{font-size:1.5rem;margin-top:0}
+    .about-panel p{color:#d1d5db}
+    .checklist{list-style:none;padding:0;margin:20px 0 0}
+    .checklist li{margin:10px 0}.checklist li:before{content:"✓";color:var(--yellow);font-weight:bold;margin-left:10px}
+    .about-copy p{color:var(--muted)}
+    .emergency{background:var(--yellow);padding:36px 0}
+    .emergency-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .emergency h2{margin:0 0 5px}.emergency p{margin:0}
+    .dark-btn{background:var(--dark);color:#fff}
+    .contact{background:var(--light)}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px}
+    .contact-box,.contact-form{background:#fff;border:1px solid #eaecf0;border-radius:16px;padding:28px}
+    .contact-box h3,.contact-form h3{margin-top:0;color:var(--dark)}
+    .contact-line{display:flex;gap:13px;margin:18px 0;align-items:flex-start}
+    .contact-line .symbol{font-size:1.35rem}
+    .contact-line small{display:block;color:var(--muted)}
+    label{display:block;font-weight:bold;margin:12px 0 5px}
+    input,textarea,select{width:100%;padding:12px;border:1px solid #d0d5dd;border-radius:9px;font:inherit;background:#fff}
+    textarea{min-height:110px;resize:vertical}
+    .form-note{font-size:.82rem;color:var(--muted)}
+    footer{background:var(--dark);color:#d1d5db;padding:25px 0;text-align:center;font-size:.9rem}
+    footer strong{color:var(--yellow)}
+    .float-call{position:fixed;bottom:18px;left:18px;background:var(--yellow);color:#111;border-radius:999px;padding:13px 17px;font-weight:bold;box-shadow:0 6px 20px #0003;z-index:20}
+    @media(max-width:800px){nav{display:none}.hero-grid{grid-template-columns:1fr;padding:55px 0}.hero-art{min-height:240px}.bulb{width:190px;height:190px;font-size:5.5rem}.trust{grid-template-columns:1fr;margin-top:-15px}.trust-item{justify-content:flex-start}.cards{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{grid-template-columns:1fr}.emergency-inner{align-items:flex-start;flex-direction:column}}
+    @media(max-width:520px){.cards{grid-template-columns:1fr}section{padding:55px 0}.hero p{font-size:1rem}.nav-call{font-size:.85rem;padding:8px 10px}.brand{font-size:.9rem}.contact-box,.contact-form{padding:21px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="brand-icon">⚡</span><span>خدمات برق ساختمانی موسوی</span></a>
+    <nav>
+      <a href="#home">صفحه اصلی</a><a href="#services">خدمات ما</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a>
+    </nav>
+    <a class="nav-call" href="#contact">درخواست خدمات</a>
+  </div>
+</header>
 
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">خدمات برق‌کاری در مشهد</span>
+        <h1>روشنایی امن و زیبا،<br><span>با برق‌کاری اصولی</span></h1>
+        <p>خدمات برق ساختمانی موسوی؛ ارائه خدمات برق‌کاری ساختمان، نصب چراغ و لوستر، نورپردازی داخلی و نمای ساختمان و رسیدگی به مشکلات اضطراری برق.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">ثبت درخواست خدمات ←</a>
+          <a class="btn btn-outline" href="#services">مشاهده خدمات</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="تصویر تزئینی لامپ">
+        <div class="bulb">💡</div>
+        <div class="art-card one">⚡ اجرای اصولی برق ساختمان</div>
+        <div class="art-card two">✨ نورپردازی متناسب با فضای شما</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap trust">
+    <div class="trust-item"><span class="trust-icon">🛠️</span><div><strong>اجرای دقیق</strong><small>توجه به جزئیات کار</small></div></div>
+    <div class="trust-item"><span class="trust-icon">💡</span><div><strong>روشنایی زیبا</strong><small>راهکارهای نورپردازی</small></div></div>
+    <div class="trust-item"><span class="trust-icon">📍</span><div><strong>فعال در مشهد</strong><small>خدمات در محدوده مشهد</small></div></div>
+  </div>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head"><span class="tag">خدمات ما</span><h2>چه کاری برای شما انجام می‌دهیم؟</h2><p>برای خانه، محل کار یا ساختمان در حال ساخت، خدمات مورد نیاز برق و روشنایی را انتخاب کنید.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">⚡</div><h3>برق‌کاری ساختمان</h3><p>سیم‌کشی، نصب کلید و پریز، بررسی ایرادهای برقی و اجرای برق ساختمان با رعایت اصول ایمنی.</p></article>
+        <article class="card"><div class="card-icon">💡</div><h3>نصب چراغ و لوستر</h3><p>نصب و تعویض انواع چراغ، لوستر و تجهیزات روشنایی برای خانه و محل کار.</p></article>
+        <article class="card"><div class="card-icon">✨</div><h3>نورپردازی داخلی</h3><p>اجرای نورپردازی برای پذیرایی، اتاق‌ها، آشپزخانه و فضاهای تجاری با توجه به نیاز شما.</p></article>
+        <article class="card"><div class="card-icon">🏢</div><h3>نورپردازی نمای ساختمان</h3><p>اجرای روشنایی نما برای جلوه بهتر ساختمان و انتخاب محل مناسب نصب چراغ‌ها.</p></article>
+        <article class="card"><div class="card-icon">🚨</div><h3>خدمات اضطراری برق</h3><p>پیگیری و بررسی مشکلات فوری برق و عیب‌یابی اولیه برای بازگرداندن ایمنی و عملکرد مناسب.</p></article>
+        <article class="card"><div class="card-icon">🔧</div><h3>عیب‌یابی و تعمیرات</h3><p>بررسی قطعی برق، خرابی روشنایی و مشکلات رایج تجهیزات برقی ساختمان.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <span class="tag">درباره خدمات موسوی</span>
+        <h2>انتخابی مطمئن برای برق و روشنایی ساختمان</h2>
+        <p>هدف ما ارائه خدمات برق‌کاری و روشنایی متناسب با نیاز شما در شهر مشهد است؛ از کارهای نصب و تعمیر تا نورپردازی فضاهای داخلی و نمای ساختمان.</p>
+        <p>برای دریافت راهنمایی و هماهنگی، درخواست خود را از طریق بخش تماس ثبت کنید.</p>
+      </div>
+      <div class="about-panel">
+        <h3>چرا خدمات برق ساختمانی موسوی؟</h3>
+        <p>خدمات مورد نیازتان را توضیح دهید تا برای بررسی و هماهنگی کار با شما تماس گرفته شود.</p>
+        <ul class="checklist"><li>توجه به اصول ایمنی برق</li><li>خدمات متنوع برق و روشنایی</li><li>هماهنگی بر اساس نوع پروژه</li><li>فعالیت در شهر مشهد</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="emergency">
+    <div class="wrap emergency-inner">
+      <div><h2>مشکل برق دارید؟</h2><p>برای شرح مشکل و هماهنگی خدمات، درخواست خود را ثبت کنید.</p></div>
+      <a class="btn dark-btn" href="#contact">درخواست خدمات اضطراری ←</a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head"><span class="tag">تماس با ما</span><h2>درخواست خدمات برق‌کاری</h2><p>برای هماهنگی خدمات با شماره تماس یا واتساپ ارتباط بگیرید؛ همچنین می‌توانید فرم درخواست را تکمیل کنید.</p></div>
+      <div class="contact-grid">
+        <div class="contact-box">
+          <h3>اطلاعات خدمات</h3>
+          <div class="contact-line"><span class="symbol">📍</span><div><strong>محدوده فعالیت</strong><small>مشهد، ایران</small></div></div>
+          <div class="contact-line"><span class="symbol">⚡</span><div><strong>نام کسب‌وکار</strong><small>خدمات برق ساختمانی موسوی</small></div></div>
+          <div class="contact-line"><span class="symbol">📞</span><div><strong>شماره تماس</strong><small><a href="tel:09368883870" dir="ltr">0936 888 3870</a></small><small><a href="https://wa.me/989368883870" target="_blank" rel="noopener">ارتباط در واتساپ</a></small></div></div>
+          <div class="contact-line"><span class="symbol">🕒</span><div><strong>زمان ارائه خدمات</strong><small>با هماهنگی قبلی</small></div></div>
+          <p class="form-note">برای تماس مستقیم، روی شماره تلفن یا پیوند واتساپ بزنید.</p>
+        </div>
+        <form class="contact-form" onsubmit="sendRequest(event)">
+          <h3>فرم درخواست</h3>
+          <label for="name">نام شما</label><input id="name" name="name" placeholder="نام و نام خانوادگی" required>
+          <label for="phone">شماره تماس</label><input id="phone" name="phone" type="tel" placeholder="مثلاً ۰۹۱۵۱۲۳۴۵۶۷" required>
+          <label for="service">نوع خدمت</label>
+          <select id="service" name="service"><option>برق‌کاری ساختمان</option><option>نصب چراغ و لوستر</option><option>نورپردازی داخلی</option><option>نورپردازی نمای ساختمان</option><option>خدمات اضطراری برق</option><option>عیب‌یابی و تعمیرات</option></select>
+          <label for="details">توضیحات</label><textarea id="details" name="details" placeholder="لطفاً نیاز خود را توضیح دهید"></textarea>
+          <button class="btn btn-primary" type="submit" style="border:0;cursor:pointer;width:100%;margin-top:16px">آماده‌سازی درخواست</button>
+          <p class="form-note" id="form-message">این نسخه نمایشی است؛ فرم هنوز به سامانه ارسال پیام متصل نشده است.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> <strong>خدمات برق ساختمانی موسوی</strong> — مشهد، ایران</div></footer>
+<a class="float-call" href="#contact">⚡ درخواست خدمات</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  function sendRequest(event){
+    event.preventDefault();
+    const name=document.getElementById('name').value.trim();
+    const phone=document.getElementById('phone').value.trim();
+    const service=document.getElementById('service').value;
+    const details=document.getElementById('details').value.trim();
+    const msg=`سلام، برای خدمات برق ساختمانی موسوی درخواست دارم.\nنام: ${name}\nشماره تماس: ${phone}\nخدمت: ${service}\nتوضیحات: ${details}`;
+    document.getElementById('form-message').textContent='متن درخواست آماده شد. برای ارسال واقعی، شماره واتساپ یا سامانه تماس باید به سایت متصل شود.';
+    const blob=new Blob([msg],{type:'text/plain;charset=utf-8'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');a.href=url;a.download='darkhast-bargh-mousavi.txt';a.click();URL.revokeObjectURL(url);
+  }
+</script>
+</body>
+</html>
